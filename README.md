@@ -55,7 +55,7 @@ python api.py
 
 ### Enter Github username and click "Enter"
 
-![.](https://github.com/mario11-wiet/api/blob/master/static/Zrzut%20ekranu%20z%202021-04-25%2020-22-51.png "Main")
+![.](https://github.com/mario11-wiet/api/blob/main/static/Zrzut%20ekranu%20z%202021-04-25%2020-22-51.png "Main")
 
 <br />
  
@@ -63,7 +63,7 @@ python api.py
 
 #### Go back to the menu or see the sum of stars
 
-![.](https://github.com/mario11-wiet/api/blob/master/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-03.png "users")
+![.](https://github.com/mario11-wiet/api/blob/main/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-03.png "users")
 
 <br />
 
@@ -71,7 +71,7 @@ python api.py
 
 #### Go back to the menu or respository list
 
-![.](https://github.com/mario11-wiet/api/blob/master/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-14.png "stars")
+![.](https://github.com/mario11-wiet/api/blob/main/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-14.png "stars")
 
 <br />
 
@@ -79,7 +79,7 @@ python api.py
 
 #### Go back to the menu
 
-![.](https://github.com/mario11-wiet/api/blob/master/static/Zrzut%20ekranu%20z%202021-04-25%2021-57-10.png "error")
+![.](https://github.com/mario11-wiet/api/blob/main/static/Zrzut%20ekranu%20z%202021-04-25%2021-57-10.png "error")
 
 <br />
 
