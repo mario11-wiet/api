@@ -48,7 +48,7 @@ python api.py
 
 ### Open link from terminal
 
-![.](https://github.com/mario11-wiet/api/blob/master/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-52%20(1)%20(copy).jpg "Open")
+![.](https://github.com/mario11-wiet/api/blob/main/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-52%20(1)%20(copy).jpg "Open")
 
 <br />
 
