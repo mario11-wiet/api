@@ -46,6 +46,18 @@ python api.py
 
 <br />
 
+### You may need to surrender your own github token
+
+#### If it doesn't work my token is not active at the moment
+
+#### Getting your own token
+
+```
+https://github.com/settings/tokens
+```
+
+<br />
+
 ### Open link from terminal
 
 ![.](https://github.com/mario11-wiet/api/blob/main/static/Zrzut%20ekranu%20z%202021-04-25%2020-21-52%20(1)%20(copy).jpg "Open")
