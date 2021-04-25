@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}{{nick}}{% endblock %}
+
+{% block logo %}
+GITHUB USER: {{nick}}
+{% endblock %}
+
+{% block button1 %}
+STARS
+{% endblock %}
+
+{% block href %}
+/users/{{nick}}/stars
+{% endblock %}
+
+{% block button2 %}
+MENU
+{% endblock %}
+
+{% block href2 %}
+/
+{% endblock %}
+
+{% block content %}
+<style>
+
+.content1
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.fo
+{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.fo2
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    width: 50%;
+
+}
+.text
+{
+    font-size: 20pt;
+    padding: 20px 20px;
+    background: skyblue;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+}
+#name
+{
+    font-weight: bold;
+}
+#name2
+{
+    font-style: italic;
+}
+.nick
+{
+    font-size: 60pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.nick2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+    <div class="content1">
+        <div>
+            <img src="{{photo}}">
+        </div>
+        <div class="nick">
+            <div class="nick2">
+                {{nick}}
+            </div>
+        </div>
+    </div>
+    <div class="fo">
+    {% for i in content %}
+            <div class="fo2">
+                <div class="text">
+                    <p id="name">{{i['name']}}</p>
+                    <p>⭐ {{i['stars']}}</p>
+                    <p id="name2"><a href="{{i['url']}}">{{i['url']}}</a></p>
+                </div>
+            </div>
+    {% endfor %}
+    </div>
+{% endblock %}
+

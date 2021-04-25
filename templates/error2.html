@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block logo %}
+ERROR
+{% endblock %}
+
+{% block button2 %}
+MENU
+{% endblock %}
+
+{% block href2 %}
+/
+{% endblock %}
+
+{% block content %}
+<style>
+.count
+{
+    margin-top: 60px;
+    align-items: center;
+    font-size: 60pt;
+    text-align: center;
+    font-style: italic;
+}
+</style>
+<div class="count">
+    <p>Try again</p>
+    <div class="f2"><p>{{error}}</p></div>
+</div>
+
+{% endblock %}}

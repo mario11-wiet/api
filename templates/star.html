@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}Star{% endblock %}
+
+{% block logo %}
+GITHUB USER: {{nick}}
+{% endblock %}
+
+{% block button1 %}
+GITHUB
+{% endblock %}
+
+{% block href %}
+/users/{{nick}}
+{% endblock %}
+{% block href2 %}
+/
+{% endblock %}
+{% block button2 %}
+MENU
+{% endblock %}
+{% block content %}
+
+
+
+<style>
+.nick
+{
+    font-size: 60pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.content1
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.count
+{
+    margin-top: 60px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 100pt;
+    text-align: center;
+
+}
+</style>
+<div class="content1">
+        <div class="photo">
+            <img src="{{photo}}">
+        </div>
+        <div class="nick">
+            <div class="nick2">
+                <p>{{nick}}</p>
+            </div>
+        </div>
+    </div>
+<div class="count">
+    <p>⭐ {{count}}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Error{% endblock %}
+
+{% block logo %}
+ERROR
+{% endblock %}
+
+{% block button2 %}
+MENU
+{% endblock %}
+
+{% block href2 %}
+/
+{% endblock %}
+
+{% block content %}
+<style>
+.count
+{
+    margin-top: 60px;
+    align-items: center;
+    font-size: 60pt;
+    text-align: center;
+    font-style: italic;
+
+}
+.f1
+{
+    margin-top: 100px;
+    align-items: center;
+    font-style: italic;
+    font-size: 30pt;
+    text-align: center;
+}
+.f2
+{
+    font-style: normal;
+    font-weight: bold;
+}
+</style>
+<div class="count">
+    <p>Dont' have this name in Github:</p>
+    <div class="f2"><p>{{nick}}</p></div>
+</div>
+<div class="f1"><p1>Check for whitespace</p1></div>
+
+{% endblock %}

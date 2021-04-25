@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <title>
+            {% block title %}
+            {% endblock %}
+        </title>
+    </head>
+    <body style="background-image: url('/static/Webpage-background-image.png')">
+        <div >
+            <nav class="menu">
+                <div class="logo">{% block logo %} {% endblock %}</div>
+                <ul>
+                    <li><a href="{% block href %} {% endblock %}">{% block button1 %} {% endblock %}</a></li>
+                    <li><a href="{% block href2 %} {% endblock %}">{% block button2 %} {% endblock %}</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div style="padding-top: 60px">
+            <div class="form">
+
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>
