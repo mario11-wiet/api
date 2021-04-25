@@ -56,6 +56,8 @@ python api.py
 https://github.com/settings/tokens
 ```
 
+### Or uncomment line 44 in api.py (downloading data without a token - limited number of times)
+
 <br />
 
 ### Open link from terminal
