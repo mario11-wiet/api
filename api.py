@@ -41,6 +41,7 @@ def stars(nick):
     try:
         user_data = url_git(nick)
         count = 0
+        #user_data = requests.get(f"https://api.github.com/users/{nick}/repos")
         photo = user_data[0]['owner']
         photo = photo['avatar_url']
         for i in user_data:
