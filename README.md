@@ -123,9 +123,3 @@ https://github.com/settings/tokens
 
 <br />
 
-
-### I used html and css to format the file
-
-<br />
-
-### I have my token in the files, but it has no rights
