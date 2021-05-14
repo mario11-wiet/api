@@ -46,9 +46,7 @@ python api.py
 
 <br />
 
-### You may need to surrender your own github token
-
-#### If it doesn't work my token is not active at the moment
+#### If it doesn't work token is not active at the moment
 
 #### Getting your own token
 
