@@ -1,7 +1,7 @@
 from flask import Flask, redirect, render_template, request, url_for
 import requests
 
-token_users = "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"
+token_users = ""
 
 app = Flask(__name__)
 
